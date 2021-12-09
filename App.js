@@ -10,6 +10,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeArea } from './src/components/utils/safe-area.component';
 import { Ionicons } from '@expo/vector-icons';
+import { restaurantRequest } from './src/services/restaurants/restaurants.service';
 
 const TAB_ICON = {
   Restaurants:"md-restaurant",
